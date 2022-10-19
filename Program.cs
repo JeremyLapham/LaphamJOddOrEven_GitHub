@@ -42,7 +42,7 @@ while(!isConvert)
         Console.WriteLine("Your number is Even!");
     }
 
-Console.WriteLine("Would you like to play again? Type yes to play again. Type end if you are done");
+Console.WriteLine("Would you like to play again? Type anything or nothing to play again. Type end if you are done");
 string doneSo = Console.ReadLine().ToLower();
 if( doneSo == "end")
 {
